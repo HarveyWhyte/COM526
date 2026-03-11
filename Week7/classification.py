@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 import pandas as pd
 
 # Load in the dataset from CSV using Pandas
-data = pd.read_csv("iris.csv")
+data = pd.read_csv("Week7/iris.csv")
 
 X = data.drop(["species"], axis=1)
 y = data["species"]

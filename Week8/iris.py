@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load in the dataset from CSV using Pandas
-data = pd.read_csv("iris.csv")
+data = pd.read_csv("Week7/iris.csv")
 
 X = data.drop(["species"], axis=1)
 y = data["species"]
