@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import GridSearchCV, KFold
 from sklearn.tree import DecisionTreeClassifier
 
-data = pd.read_csv("iris.csv")
+data = pd.read_csv("Week7/iris.csv")
 
 X = data.drop(["species"], axis=1)
 y = data["species"]
